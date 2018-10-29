@@ -33,7 +33,7 @@ type Props = {
       video: string,
       images: Object,
     },
-    ANGULAR_SITE_URL: string,
+    REACT_SITE_URL: string,
     site_home_trailer_title: string,
     site_title: string,
     site_subtitle: string,
@@ -77,7 +77,7 @@ class HomeContainer extends Component<Props, State> {
     return `${cdn_url}/images/${images['1']}`;
   }
 
-  isSettingsLoaded = () => Boolean(this.props.settings.ANGULAR_SITE_URL);
+  isSettingsLoaded = () => Boolean(this.props.settings.REACT_SITE_URL);
 
   _showSignIn = () => this.setState({isSignInVisible: true});
 

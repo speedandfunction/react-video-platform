@@ -1,4 +1,4 @@
-- This is core of React video platform application without static and webpack configurations.
+This is core of React video platform application without static and webpack configurations.
 
 We used symbiosis of [React](https://reactjs.org/), [Redux](https://github.com/reduxjs/redux), [Saga](https://github.com/redux-saga/redux-saga) and [Flow](https://github.com/facebook/flow) here.
 

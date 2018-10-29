@@ -43,7 +43,7 @@ type Props = {
       video: string,
       images: Object,
     },
-    ANGULAR_SITE_URL: string,
+    REACT_SITE_URL: string,
   },
   sendMessages: ({params: Object}) => void,
   sendCoupon: ({promoCode: string}) => void,
@@ -73,7 +73,7 @@ class SubscribeContainer extends Component<Props, State> {
     }
   }
 
-  isSettingsLoaded = () => Boolean(this.props.settings.ANGULAR_SITE_URL);
+  isSettingsLoaded = () => Boolean(this.props.settings.REACT_SITE_URL);
 
   _showSignUp = () => this.setState({isSignUpVisible: true});
 

@@ -45,7 +45,6 @@ class App extends Component<Props, State> {
   componentWillMount() {
     persistStore(store, {whitelist: ['auth']}, () => {
       this.setState({rehydrated: true});
-      // this.props.getSettings();
     });
   }
 
